@@ -1,0 +1,329 @@
+*{
+    background-color: rgb(26, 25, 25);
+    color: white;
+    align-items: center;
+}
+header{
+    position: sticky;
+    top: 0;
+    display: flex;
+    padding: 0 2px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: -8px;
+}
+header a{
+    display: flex;
+    color: white;
+    margin-left: 4px;
+    padding: 27px 68px;
+    text-decoration: none;
+    background-color: black;
+}
+h1{
+    background-color: black;
+}
+a{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+h3{
+    font-size: 25px;
+}
+h4,h3,h2{
+    text-align: center;
+    background-color: transparent;
+}
+h2{
+    font-size: 60px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form h3{
+    background-color: rgb(26, 25, 25);
+    color: #958f8f;
+    font-weight: 800;
+    margin-bottom: 20px;
+    text-align: center;
+}
+textarea{
+    width: 323px;
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    color: black;
+    border: 0ch;
+    border: none;
+    background: white;
+    outline: none;
+    padding-top: 1px;
+    border-radius: 9px;
+}
+#email, #number, #name{
+    width: 319.6px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    color: black;
+    border: 0;
+    border-bottom: 2px solid white;
+    background: white;
+    outline: none;
+    border-radius: 9px;
+}
+#place{
+    width: 319.6px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    color: black;
+    border: 0;
+    border-bottom: 2px solid white;
+    background: white;
+    outline: none;
+    border-radius: 9px;
+}
+.radio{
+    display: flex;
+    justify-content: center;
+    
+}
+button{
+    display: flex;
+    justify-content: center;
+    margin: 0 122px;
+    padding: 0 28px;
+    background: rgb(237, 9, 51);
+    height: 34.7px;
+    border-radius: 17px;
+    cursor: pointer;
+}
+p{
+    font-size: 26px;
+    font-weight:normal;
+    text-align: start;
+    cursor: default;
+}
+#dh{
+    text-align: center;
+    margin: 0 256px;
+}
+#p2{
+    font-size: 25px;
+}
+#yes{
+    width: 20px;
+    height: 20px;
+}
+#No{
+    width: 20px;
+    height: 20px;
+}
+#h4{
+    font-size: 27px;
+}
+#h1{
+    font-size: 32px;
+    text-align: center;
+    background-color: rgb(26, 25, 25);
+}
+footer{
+    position: sticky;
+    bottom: 0%;
+    display: grid;
+    justify-content: center;
+    border: none;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    width: 99%;
+    background: black;
+    color: white;
+    margin-top: 5px;
+}
+footer a{
+    background-color: black;
+}
+.home{
+    background-image: url(Home.jpg);
+    background-size: auto;
+}
+.about{
+    background-image: url(about.jpg);
+    background-size: auto;
+}
+.contact{
+    background-image: url(contact.jpg);
+    background-size: auto;
+}
+p{
+    background-color: transparent;
+}
+img{
+    background-color: transparent;
+    display: var(#958f8f);
+    flex-direction: column;
+    justify-content: center;
+    width: 220px;
+    padding: 0 53px;
+}
+#dd{
+    height: 293.33px;
+}
+#kk{
+    height: 293.33px;
+    width: 183px;
+}
+#p{
+    text-align: center;
+}
+#morePhotos{
+    margin-bottom: 3px;
+    background-color: transparent;
+    text-align: center;
+    border-width: 2px;
+    border-color: #000;
+}
+.images{
+    background: #c8c0c0;
+    padding: 5px;
+}
+.images img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    display: inline-block;
+}
+.photo{
+    background: transparent;
+}
+.photo a{
+    width: 73px;
+    background: #ed0933;
+    margin: 0 46.5%;
+    border: 2px solid #ed0933;
+    border-radius: 40px
+}
+.contactBtn{
+    display: flex;
+    background: transparent;
+    margin: 50px;
+    justify-content: space-between;
+}
+.contactBtn p{
+    color: #000;
+    font-weight: 900;
+}
+.contactBtn #contactBn{
+    border: 2px solid #ed0933;
+    background: #ed0933;
+    padding: 3px 4px;
+    border-radius: 40px;
+}
+
+                                        /* mobile */
+
+@media screen and (max-width: 655px){
+    *{
+        color: #000;
+        width: fit-content;
+    }
+    h2{
+        font-size: 90px;
+    }
+    p{
+        font-size: 60px;
+    }
+    .images{
+        width: 100%;
+        align-items: center;
+    }
+    #img{
+        display: flex;
+        justify-content: center;
+        padding: 49px 53px;
+        font-size: 45px;
+        text-align: center;
+        margin-left: 36%;
+        width: 80px;
+        height: 20px;
+        border: 3px solid #ed0933;
+        font-weight: 800;
+        color: white;
+        background-color: #ed0933;
+    }
+    #submit{
+        color: white;
+    }
+    .about{
+        color: white;
+    }
+    .images img{
+        display: grid;
+        width: fit-content;
+
+    }
+    #p{
+        text-align: center;
+    }
+    .home{
+        background-color: rgba(245, 245, 245, 0.894);
+        background-blend-mode: screen;
+        background-size: 100%;
+        }
+    .about{
+        background-image: url(about.jpg);
+        background-size: 100%;
+    }
+    .contact{
+        background-image: url(contact.jpg);
+        background-size: auto;
+    }
+    #dh{
+        margin: 5px;
+    }
+    header{
+        width: 102%;
+        padding: 25px 10px;
+        justify-content: space-between;
+    }
+    header h1{
+        color: #fff;
+        font-weight: 600;
+    }
+    header a{
+        font-size: 40px;
+        padding: 0;
+    }
+    footer{
+        width: 640px;
+        font-size: 35px;
+        text-align: center;
+    }
+    footer a{
+        text-align: center;
+    }
+    .contactBtn #contactBn{
+        text-align: center;
+        font-size: 44px;
+        padding: 12px 40px;
+    }
+    #name, #email, #number, #place{
+        font-size: 20px;
+        height: 40px;
+    }
+    textarea{
+        font-size: 20px;
+    }
+    #submit{
+        font-size: 20px;
+    }
+}

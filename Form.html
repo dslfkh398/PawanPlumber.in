@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contact">
+         <div class="form">
+           <div class="container">
+               <form id="form" action="https://api.web3forms.com/submit" method="POST">
+               <div class="form">
+                   <h3>Contact me</h3>
+                   <div class="fill">
+                       <input type="hidden" name="access_key" value="f45e3429-0dc2-4c71-9ffd-b57c7f7047d5">
+                        <input type="text" placeholder="Enter your name" name="name" id="name" required><br>
+                       <input type="email" placeholder="Enter your Email address" name="email" id="email" required><br>
+                       <input type="number" placeholder="Enter your mobile number" name="number" id="number" required><br>
+                       <textarea id="message" rows="6" placeholder="Enter your problem here" name="Message" id="text" required></textarea><br>
+                   </div>
+                       <div class="State">
+                           <input type="text" placeholder="Where do you live" name="Place" id="place" required>
+                        </div>
+                        <br>
+                       <div class="button">
+                            <button type="submit" id="submit">Send</button>
+                    </div>
+                     </div>
+                 </form>
+             </div>
+         </div>
+    </div>
+</body>
+</html>
